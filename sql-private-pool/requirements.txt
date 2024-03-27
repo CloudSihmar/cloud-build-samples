@@ -1,4 +1,4 @@
-flask==2.2.2
+flask==2.2.5
 sqlalchemy
 cryptography
 
@@ -17,3 +17,4 @@ pg8000==1.29.4 # for PostgreSQL
 
 # python-tds       # for MSSQL
 # sqlalchemy-pytds # for MSSQL
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
