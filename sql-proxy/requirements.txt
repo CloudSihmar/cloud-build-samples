@@ -1,4 +1,4 @@
-flask==2.2.2
+flask==2.2.5
 sqlalchemy
 cryptography
 
@@ -17,3 +17,5 @@ pymysql          # for MySQL
 
 python-tds       # for MSSQL
 sqlalchemy-pytds # for MSSQL
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
